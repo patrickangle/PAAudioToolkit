@@ -3,17 +3,17 @@
 
 **Useage:**
 
-`// Where you want the file written
-let destinationURL = NSURL()
+    // Where you want the file written
+    let destinationURL = NSURL()
 
-PAAudioToolkit.importMusicLibraryItem(mediaItem, destination: destinationURL) { success, errorMessage in
+    PAAudioToolkit.importMusicLibraryItem(mediaItem, destination: destinationURL) { success, errorMessage in
         if success {
             // Handle success case
         } else {
             // Handle failure case
             print(errorMessage)
         }
-    }`
+    }
 
 
 **What still needs done:**
